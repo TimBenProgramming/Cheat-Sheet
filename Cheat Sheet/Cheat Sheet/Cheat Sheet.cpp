@@ -15,8 +15,6 @@ std::vector;	?
 std::getline	standard get string input
 std::get        standard get character input
 
-#include <string>
-std::string
 
  
 #include <cctype>
@@ -45,6 +43,7 @@ char; // Character = character value
 
 void; // Void = Empty value (Nothing)
 
+float; // Floating : They can represent real values, such as 3.14 or 0.01, with different levels of precision
 
 
 // Operators
