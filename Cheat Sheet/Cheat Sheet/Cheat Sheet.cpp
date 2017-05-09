@@ -1,3 +1,24 @@
+//UNREAL NAMINGS STANDARDS
+
+Template classes are prefixed by T.
+Classes that inherit from UObject are prefixed by U.
+Classes that inherit from AActor are prefixed by A.
+Classes that inherit from SWidget are prefixed by S.
+Classes that are abstract interfaces are prefixed by I.
+Enums are prefixed by E.
+Boolean variables must be prefixed by b(e.g. "bPendingDestruction", or "bHasFadedIn").
+Most other classes are prefixed by F, though some subsystems use other letters.
+Typedefs should be prefixed by whatever is appropriate for that type : F
+if it's a typedef of a struct, U if it's a typedef of a UObject etc.
+
+// UNREAL REFRENCES AND ACCESSORS
+
+// These are to be used when a varible or reference or methords or function if to be complied after the build
+Instances or References .
+Pointers ->
+
+// These are to be complied before the build (Example: Varibles that will not change during complie)
+class, enum, namespace ::
 
 // Basic C++
 #include <iostream>
